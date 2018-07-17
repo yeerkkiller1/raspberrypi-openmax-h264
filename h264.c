@@ -899,9 +899,7 @@ int main (){
   }
   
   //Initialize components
-  //printf("init camera\n");
-  //init_component (&camera);
-  printf("init encoder\n");
+  init_component (&camera);
   init_component (&encoder);
   init_component (&null_sink);
   
